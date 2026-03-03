@@ -1,6 +1,6 @@
 {pkgs, ...}: {
-  devShells.py-reboar = pkgs.mkShell {
-    name = "scrappy";
+  devShells.py-scrappy = pkgs.mkShell {
+    name = "py-scrappy";
     packages = with pkgs; [
       python313
       python313Packages.beautifulsoup4

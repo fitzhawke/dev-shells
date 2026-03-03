@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   devShells.py-reboar = pkgs.mkShell {
-    name = "reboar";
+    name = "py-reboar";
     packages = with pkgs; [
       python313
       ffmpeg
