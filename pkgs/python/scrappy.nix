@@ -6,6 +6,7 @@
       python313Packages.beautifulsoup4
       python313Packages.requests
       python313Packages.ebooklib
+      python313Packages.pillow
     ];
     NIX_CONFIG = "extra-experimental-features = nix-command flakes";
     DIRENV_LOG_FORMAT = "";
